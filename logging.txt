@@ -1,0 +1,28 @@
+2019-01-30 01:42:57,713 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\callbackqueryhandler.py", line 143, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: button() missing 1 required positional argument: 'Card'
+2019-01-30 01:45:39,097 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\callbackqueryhandler.py", line 143, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: button() missing 1 required positional argument: 'Card'
+2019-01-30 01:49:02,561 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\callbackqueryhandler.py", line 143, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: button() missing 1 required positional argument: 'Card'
+2019-01-30 01:58:34,284 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\callbackqueryhandler.py", line 143, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: button() missing 1 required positional argument: 'card'
