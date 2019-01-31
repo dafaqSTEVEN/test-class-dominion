@@ -1,0 +1,37 @@
+2019-01-31 08:18:27,437 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "D:/PROGRAM/GitHub/test-class-dominion/classdominion.py", line 1182, in join
+    if str(update.message.from_user.id) == (user1.userid or user2.userid or user3.userid):
+AttributeError: 'user' object has no attribute 'userid'
+2019-01-31 08:18:27,492 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "D:/PROGRAM/GitHub/test-class-dominion/classdominion.py", line 1182, in join
+    if str(update.message.from_user.id) == (user1.userid or user2.userid or user3.userid):
+AttributeError: 'user' object has no attribute 'userid'
+2019-01-31 08:18:39,112 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "D:\PROGRAM\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "D:/PROGRAM/GitHub/test-class-dominion/classdominion.py", line 1182, in join
+    if str(update.message.from_user.id) == (user1.userid or user2.userid or user3.userid):
+AttributeError: 'user' object has no attribute 'userid'
+2019-01-31 13:33:12,163 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D41A30>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:12,173 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D41AD0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:12,174 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D41910>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:12,175 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x037405D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-01-31 13:33:12,175 - __main__ - WARNING - Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x037405D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))"
+2019-01-31 13:33:13,502 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D41A90>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:13,841 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D417F0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:13,848 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x02D41AB0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed')': /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates
+2019-01-31 13:33:13,850 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0314C330>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-01-31 13:33:13,854 - __main__ - WARNING - Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot688735688:AAG3tfiPI_6bHSBzYhZ69K-DmQltNfoH4jQ/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0314C330>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))"
